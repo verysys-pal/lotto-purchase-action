@@ -9,8 +9,9 @@
 const AUTO_GAME_COUNT = 2;
 
 const MANUAL_NUMBERS = [
-  [5, 12, 18, 27, 34, 42],
-  [1, 14, 19, 22, 31, 45]
+  [1, 2, 5, 8, 10, 18],
+  [1, 2, 5, 8, 10, 30],
+  [6, 7, 21, 23, 38, 39]
 ];
 
 export default async ({ purchaseAuto, purchaseManual }) => {
